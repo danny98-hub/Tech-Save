@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(201, 21, 21);
+    padding: 10px;
+}
+
+.navbar-section {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-section a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.navbar-section a:hover {
+  color: rgb(124, 121, 121)
+}
+
+.sect2 {
+    padding-top: 15px 30px;
+    margin-top: 70px;
+   position: relative;
+   text-align: center;
+   justify-content: space-between;
+   display: flex;
+}
+
+.sect-left h1{
+    color: red;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.sect-right h5{
+    color: rgb(78, 75, 75);
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navbar2 ul{
+    list-style: none;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.navbar2 li {
+    display: inline-block;
+    padding: 10px;
+    font-size: medium;
+}
+
+.navbar2 a{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    display: block;
+    
+}
+
+.navbar2 a:hover{
+    color: rgb(241, 107, 59);
+}
+
+.techpic{
+    width: 100%;
+}
+
+.full-width-image{
+    width: 100%;
+    height: 300px;
+}
+
+.head h3{
+    color: #585858;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    text-align: center;
+}
+.item img{
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.sep{
+    margin-top: 30px;
+}
+
+.sep1{
+    border: 0;
+    border-top:5px solid red;
+    width: 100%
+}
+
+.bg1{
+    height:600px;
+    width: 100%;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 10px;
+    background-color: white;
+    border: 2px solid red;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: red;
+}
+
+.product{
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.price{
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    color: red;
+}
+
+.btn a:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: #464646;
+    cursor: pointer; 
+}
+
+.btn:hover{
+    border-color: #464646;
+    transition: 0.3s;
+    color: #464646;
+    cursor: pointer;
+}
