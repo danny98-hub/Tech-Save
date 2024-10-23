@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(241, 231, 231);
+    font-family: poppins, sans-serif;
+    background-color: white
 }
 
 .navbar {
@@ -99,8 +99,8 @@ body {
 
 .items{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 30px 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 20px;
     grid-column-gap: 20px;
     grid-row-gap: 30px;
     text-align: center;
@@ -117,16 +117,10 @@ body {
     margin-top: 30px;
 }
 
-.sep1{
-    border: 0;
-    border-top:5px solid red;
-    width: 100%
-}
-
 .bg1{
     height:600px;
     width: 100%;
-    background-color: red;
+    padding-bottom:20px;
 }
 
 .btn {
@@ -176,7 +170,6 @@ body {
     background-color: red;
     color: white;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 .bf-inner{
 
@@ -188,4 +181,41 @@ body {
     text-align: center;
     padding-top: 20px;
     display: flex;
+    background-color: white;
+    color: black;
+}
+
+.s1{
+    display: flex;
+    padding-left: 15px;
+}
+
+.bf3{
+    color: #585858;
+    padding-top: 20px;
+}
+
+.bf3 a{
+    text-decoration: none;
+    color:#464646;
+    text-align: center;
+}
+
+.last{
+    text-align: center;
+    color: #464646;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.last a{
+    text-decoration: none;
+    color: #337ab7;
+    background-color: transparent;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:rgb(49, 47, 47);
+    cursor: pointer;
 }
