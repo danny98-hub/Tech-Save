@@ -175,10 +175,17 @@ body {
 .bf{
     background-color: red;
     color: white;
-    justify-content: space-evenly;
-    display: flex;
-    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.bf-inner{
 
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.bf2{
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+}
